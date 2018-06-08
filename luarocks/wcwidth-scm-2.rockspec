@@ -1,22 +1,13 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "wcwidth"
-version = "0.1-2"
--- LuaDist source
+version = "scm-2"
 source = {
-  tag = "0.1-2",
-  url = "git://github.com/LuaDist-testing/wcwidth.git"
+   url = "git://github.com/aperezdc/lua-wcwidth"
 }
--- Original source
--- source = {
---    url = "git://github.com/aperezdc/lua-wcwidth",
---    tag = "v0.1"
--- }
 description = {
+   maintainer = "Adrián Pérez de Castro <aperez@igalia.com>",
    summary = "Pure Lua implementation of the wcwidth() function",
    homepage = "https://github.com/aperezdc/lua-wcwidth",
-   license = "MIT/X11",
-   maintainer = "Adrián Pérez de Castro <aperez@igalia.com>"
+   license = "MIT/X11"
 }
 dependencies = {
    "lua >= 5.1"

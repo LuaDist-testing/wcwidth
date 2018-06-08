@@ -2,6 +2,8 @@ lua-wcwidth
 ===========
 
 [![Build Status](https://travis-ci.org/aperezdc/lua-wcwidth.svg?branch=master)](https://travis-ci.org/aperezdc/lua-wcwidth)
+[![Coverage Status](https://coveralls.io/repos/github/aperezdc/lua-wcwidth/badge.svg?branch=master)](https://coveralls.io/github/aperezdc/lua-wcwidth?branch=master)
+[![LuaRocks](https://img.shields.io/badge/luarocks-v0.2-blue.png)](https://luarocks.org/modules/aperezdc/wcwidth)
 
 When writing output to a fixed-width output system (such as a terminal), the
 displayed length of a string does not always match the number of characters
@@ -108,6 +110,12 @@ Installation
 ------------
 
 [LuaRocks](https://luarocks.org) is recommended for installation.
+
+The stable version (recommended) can be installed with:
+
+```sh
+luarocks install wcwidth
+```
 
 The development version can be installed with:
 
